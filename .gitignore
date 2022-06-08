@@ -1,0 +1,11 @@
+# npm modules
+node_modules/
+
+# parcel development files
+.parcel-cache/
+
+# compiled files
+dist/
+
+# MacOS file manager layout
+.DS_Store

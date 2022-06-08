@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.6.0",
+    "@parcel/transformer-webmanifest": "^2.6.0",
+    "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "@code-game-project/javascript-client": "^3.1.0"
+  }
+}
