@@ -1,0 +1,38 @@
+th#row-game-id {
+  width: 65%;
+}
+
+th#row-players {
+  width: 15%;
+}
+
+th#row-actions {
+  width: 20%;
+}
+
+button.copy {
+  background: none;
+  border: none;
+  content: url('../icons/copy.svg');
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+div#copy-confirmation {
+  transition: 400ms;
+  width: 250px;
+  position: fixed;
+  bottom: 2em;
+  left: 50vw;
+  margin-left: -125px;
+  pointer-events: none;
+  padding: 1em;
+  text-align: center;
+  background-color: var(--background-light);
+  border-radius: var(--radius);
+}
+
+div#copy-confirmation.hidden {
+  opacity: 0;
+}
