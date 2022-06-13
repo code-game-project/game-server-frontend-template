@@ -2,9 +2,9 @@
  * @route GET `/info`
  * @returns `Promise` of possible API responses
  */
-export async function getInfo(host) {
+export async function getInfo() {
   try {
-    const r = await fetch(`${host}/info`, { method: 'GET' });
+    const r = await fetch(`/info`, { method: 'GET' });
     try {
       return { ok: r.ok, data: await r.json() };
     } catch (e) {
@@ -20,9 +20,9 @@ export async function getInfo(host) {
  * @route GET `/games`
  * @returns `Promise` of possible API responses
  */
-export async function getGames(host) {
+export async function getGames() {
   try {
-    const r = await fetch(`${host}/games`, { method: 'GET' });
+    const r = await fetch(`/games`, { method: 'GET' });
     try {
       return { ok: r.ok, data: await r.json() };
     } catch (e) {
