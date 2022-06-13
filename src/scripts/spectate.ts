@@ -1,7 +1,7 @@
-const main = document.querySelector('main');
-const canvas = document.querySelector('canvas');
+const main = document.querySelector('main') as HTMLElement;
+const canvas = document.querySelector('canvas') as HTMLCanvasElement;
 
-const ctx = canvas.getContext('2d');
+const ctx = canvas.getContext('2d') as CanvasRenderingContext2D;
 
 window.addEventListener('resize', resizeCanvas, { passive: true });
 

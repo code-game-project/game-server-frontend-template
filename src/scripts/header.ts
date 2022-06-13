@@ -1,7 +1,7 @@
 import { getInfo } from './api';
 
-const title = document.querySelector('h1#title');
-const navRepository = document.querySelector('a#nav-repository');
+const title = document.querySelector('h1#title') as HTMLHeadingElement;
+const navRepository = document.querySelector('a#nav-repository') as HTMLAnchorElement;
 // not really header but close enough
 const aboutDescription = document.querySelector('p#about-description');
 
